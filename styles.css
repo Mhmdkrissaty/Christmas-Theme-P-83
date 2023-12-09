@@ -1,0 +1,466 @@
+canvas#snow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%
+}
+
+.christmas-head {
+    background-color: #303030;
+    background-image: url(https://nulledbb.com/assets/contest/img/christmas_illustration.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    border-radius: 4px 4px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.christmas-logo {
+    font-family: lobster, cursive;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .3);
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    transform: rotate(-3deg);
+    position: relative;
+    z-index: 3
+}
+
+.christmas-logo .line1 {
+    font-size: 80px
+}
+
+.christmas-logo .line2 {
+    font-size: 50px;
+    margin-top: -30px
+}
+
+.christmas-body {
+    margin-top: 550px
+}
+
+.christmas-join {
+    background-color: #20bbe0;
+    padding: 40px 20px;
+    margin: -20px -20px 30px;
+    align-items: center;
+    color: #fff
+}
+
+.christmas-join .icon {
+    width: 40px;
+    margin-right: 20px
+}
+
+.christmas-join .icon img {
+    width: 40px;
+    height: 40px
+}
+
+.christmas-join .text {
+    flex: 1;
+    margin-right: 20px
+}
+
+.christmas-join .text .line1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px
+}
+
+.christmas-join .text .line2 {
+    font-size: 15px
+}
+
+.flex {
+    display: flex;
+    flex-direction: row
+}
+
+.christmas-col-left {
+    margin-right: 10px;
+    flex: 1
+}
+
+.christmas-col-right {
+    width: 300px;
+    margin-left: 10px
+}
+
+.christmas-button-upgradesale {
+    background-color: #4caf50
+}
+
+.christmas-button-awardsale {
+    background-color: #3949ab
+}
+
+.christmas-button-upgradesale,
+.christmas-button-awardsale {
+    padding: 10px;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px
+}
+
+.christmas-button-upgradesale:hover {
+    background-color: #388e3c
+}
+
+.christmas-button-awardsale:hover {
+    background-color: #303f9f
+}
+
+.christmas-button-upgradesale:hover,
+.christmas-button-awardsale:hover {
+    color: #fff
+}
+
+.christmas-title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .08), 0 3px 6px rgba(0, 0, 0, .15);
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+
+.christmas-section {
+    margin-bottom: 50px
+}
+
+.christmas-section h1 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 22px
+}
+
+.christmas-title:before {
+    border-radius: 4px
+}
+
+.christmas-title:after {
+    content: "";
+    background-image: url(../img/christmas_icicle.svg);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center top;
+    position: absolute;
+    top: -8px;
+    right: -6px;
+    height: 100px;
+    width: 100px;
+    z-index: 2
+}
+
+.christmas-sidebar-item .top:after {
+    content: "";
+    background-image: url(../img/christmas_icicle.svg);
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    background-position: center top;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    height: 60px;
+    width: 60px
+}
+
+.christmas-sidebar-item .top:before {
+    border-radius: 4px 4px 0 0
+}
+
+.christmas-title:before,
+.christmas-sidebar-item .top:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -1px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.35))
+}
+
+.christmas-title.games {
+    background-color: #e53935
+}
+
+.christmas-title.tiers {
+    background-color: #1e88e5
+}
+
+.christmas-title.leaderboards {
+    background-color: #43a047
+}
+
+.christmas-sidebar-item {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .08), 0 3px 6px rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    margin-bottom: 20px
+}
+
+.christmas-sidebar-item .top,
+.christmas-sidebar-item .mid,
+.christmas-sidebar-item .bottom {
+    padding: 20px
+}
+
+.christmas-sidebar-item .top.upgradesale {
+    background-color: #4caf50
+}
+
+.christmas-sidebar-item .top.creditsraffle {
+    background-color: #9c27b0
+}
+
+.christmas-sidebar-item .top.christmas-award {
+    background-color: #3949ab
+}
+
+.christmas-sidebar-item .top {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 4px 4px 0 0;
+    position: relative
+}
+
+.christmas-sidebar-item .mid {
+    background-color: #282828;
+    border-bottom: 1px solid #303030;
+    border-right: 1px solid #303030;
+    border-left: 1px solid #303030
+}
+
+.christmas-sidebar-item .bottom {
+    background-color: #282828;
+    border-bottom: 1px solid #303030;
+    border-right: 1px solid #303030;
+    border-left: 1px solid #303030;
+    border-radius: 0 0 4px 4px
+}
+
+.christmas-sidebar-item .bottom.pool {
+    text-align: center
+}
+
+.christmas-sidebar-item .bottom.pool .number {
+    display: inline-block;
+    background-color: #9c27b0;
+    height: 40px;
+    width: 40px;
+    line-height: 42px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0 2px
+}
+
+.christmas-sidebar-item .bottom.pool .number:first-child {
+    margin: 0 2px 0 0
+}
+
+.christmas-sidebar-item .bottom.pool .number:last-child {
+    margin: 0 0 0 2px
+}
+
+.christmas-games .game-row:first-child {
+    margin-bottom: 20px
+}
+
+.christmas-games .game-row .game {
+    width: 25%;
+    margin: 0 10px;
+    position: relative
+}
+
+.christmas-games .game-row .game .game-image {
+    text-align: center;
+    background-color: #282828;
+    border: 1px solid #303030;
+    border-bottom: none;
+    padding: 20px 0;
+    border-radius: 4px 4px 0 0
+}
+
+.christmas-games .game-row .game .game-image img {
+    width: 100px;
+    height: 150px;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 0 4px #101010 inset;
+    background-color: #151515;
+    border: 1px solid #303030
+}
+
+.christmas-games .game-row .game .game-requirement {
+    background-color: #282828;
+    border-left: 1px solid #303030;
+    border-right: 1px solid #303030;
+    padding: 10px 0;
+    text-align: center
+}
+
+.christmas-games .game-row .game .game-available {
+    position: absolute;
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    top: -10px;
+    left: -10px;
+    border-radius: 50%;
+    z-index: 1
+}
+
+.christmas-games .game-row .game .game-title {
+    text-align: center;
+    background-color: #303030;
+    padding: 20px 0;
+    border-radius: 0 0 4px 4px;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase
+}
+
+.christmas-games .game-row .game:first-child {
+    margin: 0 10px 0 0
+}
+
+.christmas-games .game-row .game:last-child {
+    margin: 0 0 0 10px
+}
+
+.christmas-tiers .head-row {
+    background-color: #303030;
+    padding: 20px;
+    font-weight: 500;
+    border-radius: 4px 4px 0 0
+}
+
+.christmas-tiers .tier-row {
+    background-color: #282828;
+    border: 1px solid #303030;
+    border-top: none;
+    padding: 10px 20px;
+    align-items: center
+}
+
+.christmas-tiers .tier-row:last-child {
+    border-radius: 0 0 4px 4px
+}
+
+.christmas-tiers .head-row .tier-icon,
+.christmas-tiers .tier-row .tier-icon {
+    width: 25px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    flex-grow: 0
+}
+
+.christmas-tiers .tier-row .tier-icon img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle
+}
+
+.christmas-tiers .head-row .tier-desc,
+.christmas-tiers .tier-row .tier-desc {
+    margin-right: 20px;
+    flex: 1;
+    font-weight: 500
+}
+
+.christmas-tiers .tier-row .tier-desc .credits {
+    color: #ff9800
+}
+
+.christmas-tiers .tier-row .tier-desc .extra {
+    color: #4caf50
+}
+
+.christmas-tiers .head-row .tier-requirement,
+.christmas-tiers .tier-row .tier-requirement {
+    width: 120px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    text-align: right;
+    font-weight: 500
+}
+
+.christmas-tiers .head-row .tier-completed,
+.christmas-tiers .tier-row .tier-completed {
+    width: 130px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    text-align: right
+}
+
+.christmas-tiers .tier-row .tier-completed .completed {
+    font-weight: 500
+}
+
+.christmas-leaderboards .christmas-leaderboards-col {
+    width: 50%
+}
+
+.christmas-leaderboards .christmas-leaderboards-col:first-child {
+    margin-right: 10px
+}
+
+.christmas-leaderboards .christmas-leaderboards-col:last-child {
+    margin-left: 10px
+}
+
+.christmas-leaderboards-col .section,
+.christmas-tiers,
+.christmas-games .game {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .08), 0 3px 6px rgba(0, 0, 0, .15);
+    border-radius: 4px
+}
+
+.christmas-leaderboards-col .section .top {
+    padding: 20px;
+    background-color: #303030;
+    border-radius: 4px 4px 0 0
+}
+
+.christmas-leaderboards-col .section .bottom {
+    border: 1px solid #303030;
+    border-radius: 0 0 4px 4px
+}
+
+.christmas-leaderboards-col .section .row {
+    background-color: #282828;
+    border-bottom: 1px solid #303030;
+    padding: 20px
+}
+
+.christmas-leaderboards-col .section .row:last-child {
+    border-bottom: none;
+    border-radius: 0 0 4px 4px
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
